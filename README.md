@@ -12,9 +12,7 @@
 
 # nichuanfang 🌝
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=Gradient&show_icons=true)
-
-<img width="340px" src="https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=vue-dark&count_private=true&show_icons=true">
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=gradient&show_icons=true)
 
 <img width="340px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nichuanfang&theme=vue-dark&layout=compact">
 
