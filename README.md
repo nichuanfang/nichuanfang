@@ -15,3 +15,5 @@
 <img width="340px" src="https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=vue-dark&count_private=true&show_icons=true">
 
 <img width="340px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nichuanfang&theme=vue-dark&layout=compact">
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
