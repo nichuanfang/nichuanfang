@@ -12,8 +12,8 @@
 
 # nichuanfang 🌝
 
-<img width="370px" src="https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=monokai&count_private=true&show_icons=true">
-<img width="370px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nichuanfang&theme=vue-dark&layout=compact">
+<img width="400px" src="https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=monokai&count_private=true&show_icons=true">
+<img width="400px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nichuanfang&theme=vue-dark&layout=compact">
 <a href="https://github.com/nichuanfang/crawler">
-  <img width="370px" src="https://github-readme-stats.vercel.app/api/pin/?username=nichuanfang&repo=crawler&theme=dark">
+  <img width="400px" src="https://github-readme-stats.vercel.app/api/pin?username=nichuanfang&repo=crawler&theme=dark">
 </a
