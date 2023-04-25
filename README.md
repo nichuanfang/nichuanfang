@@ -1,7 +1,7 @@
 <a href="https://github.com/nichuanfang">
 
   <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=nichuanfang&column=7&theme=Gradient"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=nichuanfang&column=7&theme=onedark"/>
   </p>
 
 </a>
