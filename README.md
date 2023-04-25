@@ -19,6 +19,6 @@
   <img width="340px" src="https://github-readme-stats.vercel.app/api/pin?username=nichuanfang&repo=crawler&theme=dark">
 </a>
 
-<a href="https://github.com/nichuanfang/config-server">
+<a href="https://github.com/nichuanfang/config-server"> 
   <img width="340px" src="https://github-readme-stats.vercel.app/api/pin?username=nichuanfang&repo=config-server&theme=dark">
 </a>
