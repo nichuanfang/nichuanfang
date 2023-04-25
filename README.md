@@ -16,4 +16,4 @@
 
 <img width="340px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nichuanfang&theme=vue-dark&layout=compact">
 
-
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
