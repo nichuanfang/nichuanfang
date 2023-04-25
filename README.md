@@ -14,4 +14,3 @@
 
 <img width="340px" src="https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=vue-dark&count_private=true&show_icons=true">
 <img width="340px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nichuanfang&theme=vue-dark&layout=compact">
-<img width="340px" src="https://github-readme-stats.vercel.app/api/wakatime?username=nichuanfang&repo=crawler&theme=dark">
