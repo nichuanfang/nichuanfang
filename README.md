@@ -14,5 +14,5 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=monokai&show_icons=true)
 
-<img width="340px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nichuanfang&theme=vue-dark&layout=compact">
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nichuanfang)](https://github.com/anuraghazra/github-readme-stats)
 
