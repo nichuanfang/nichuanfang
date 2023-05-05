@@ -6,9 +6,6 @@
 
 </a>
 
-<a href="#">
-  <img align="right" src="https://metrics.lecoq.io/nichuanfang?template=terminal" />
-</a>
 
 # nichuanfang 🌝
 
