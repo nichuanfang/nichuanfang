@@ -8,14 +8,16 @@
 
 
 # nichuanfang 🌝
+<p align="left">
+  <img width="340px" src="https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=monokai&count_private=true&show_icons=true">
+  <img width="340px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nichuanfang&theme=vue-dark&layout=compact">
+</p>
 
-<a href="https://github.com/nichuanfang/crawler">
-  <img align="right" width="340px" src="https://github-readme-stats.vercel.app/api/pin?username=nichuanfang&repo=crawler&theme=dark">
-</a>
-<a href="https://github.com/nichuanfang/config-server"> 
-  <img align="right" width="340px" src="https://github-readme-stats.vercel.app/api/pin?username=nichuanfang&repo=config-server&theme=dark">
-</a>
-
-<img width="340px" src="https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=monokai&count_private=true&show_icons=true">
-
-<img width="340px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nichuanfang&theme=vue-dark&layout=compact">
+<p align="right">
+  <a href="https://github.com/nichuanfang/crawler">
+    <img width="340px" src="https://github-readme-stats.vercel.app/api/pin?username=nichuanfang&repo=crawler&theme=dark">
+  </a>
+  <a href="https://github.com/nichuanfang/config-server"> 
+    <img width="340px" src="https://github-readme-stats.vercel.app/api/pin?username=nichuanfang&repo=config-server&theme=dark">
+  </a>
+</p>
