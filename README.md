@@ -4,7 +4,7 @@
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/nichuanfang)
 [![Cnblogs](https://img.shields.io/badge/cnblogs-yellow)](https://www.cnblogs.com/nichuanfang/)
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:f18326186224@gmail.com)
-Welcome to my Github page! I am nichuanfang and I am  4 -year experience Java development engineer, and my favorite language is Python!
+Welcome to my Github page! I am nichuanfang and I am  3-year experience Java development engineer, and my favorite language is Python!
 
 <img align="right" alt="img" src="https://raw.githubusercontent.com/nichuanfang/nichuanfang/main/personal.jpg" width="50%" height="auto" />
 
