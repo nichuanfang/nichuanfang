@@ -7,7 +7,7 @@
 
 Welcome to my Github page! I am nichuanfang and I am  4 -year experience Java development engineer, and my favorite language is python!
 
-<img align="right" alt="img" src="https://github.com/FernandoRoldan93/FernandoRoldan93/blob/master/cover_image.jpg" width="50%" height="auto" />
+<img align="right" alt="img" src="https://raw.githubusercontent.com/nichuanfang/nichuanfang/main/personal.jpg" width="50%" height="auto" />
 
 
 #### 🌱 Things I am currently working on: 
