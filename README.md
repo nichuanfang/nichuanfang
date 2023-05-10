@@ -11,9 +11,9 @@ Welcome to my Github page! I am nichuanfang and I am  4 -year experience Java de
 
 
 #### 🌱 Things I am currently working on: 
-- Work hard and learn frontal technology stack
+- Work hard and learn latest and popular technology stacks
 - Personal application development and devops for [hosted server](https://crawler.vencenter.cn/api/doc)
-- Business practices on [bi4 Group Spain](https://github.com/bi4group) 🚀 *coming soon*
+- Actively contribute to the github community
 
 #### :muscle: Things I am challenging myself with:
 - Waking up earlier to make good use of the day
