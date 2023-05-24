@@ -1,4 +1,4 @@
-# 处理每日图片更新
+# 处理每日图片更新_ios
 
 from imagekitio import ImageKit
 import requests
@@ -22,14 +22,12 @@ def save_url_image(img_url:str,height,width):
     imgdata = base64.b64decode(base64_data)
     im = Image.open(BytesIO(imgdata))
     # im.thumbnail((height,width), Image.Resampling.LANCZOS ) #重新设置图片大小
-    im.save('everyday.jpg')
+    im.save('ios_everyday.jpg')
 
 # imagekit公钥
-# public_key = sys.argv[1]
-public_key = 'public_kHgEEUCvf82IMfTnNsHXVnXmdYQ='
+public_key = sys.argv[1]
 # imagekit私钥
-# private_key = sys.argv[2]
-private_key = 'private_26g3srCc12I3/vAQOOso2K8s/nY='
+private_key = sys.argv[2]
 
 imagekit =ImageKit(
     private_key=f'{private_key}',
@@ -44,11 +42,11 @@ if file_list is None or len(file_list)==0:
 new_file_list = []
 
 for file in file_list:
-    if file.file_path.startswith('/nichuanfang'):
+    if file.file_path.startswith('/ios'):
         new_file_list.append(file)
 
 if new_file_list is None or len(new_file_list)==0:
-    raise RuntimeError('imagekit的nichuanfang分类下没有图片!')
+    raise RuntimeError('imagekit的ios分类下没有图片!')
 
 index = random.randint(0,len(new_file_list)-1)
 save_url_image(new_file_list[index].url,new_file_list[index].height,new_file_list[index].width)

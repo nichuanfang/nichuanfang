@@ -41,6 +41,7 @@ jobs:
       - name: 每日图片更新
         run: |
           python handle_everyday.py ${{ secrets.IMAGE_KIT_PUBLIC_KEY }} ${{ secrets.IMAGE_KIT_PRIVATE_KEY }}
+          python handle_everyday_ios.py ${{ secrets.IMAGE_KIT_PUBLIC_KEY }} ${{ secrets.IMAGE_KIT_PRIVATE_KEY }}
 
       - name: Commit & Push changes
         uses: actions-js/push@master
