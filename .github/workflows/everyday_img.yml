@@ -39,8 +39,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: 'main'
-          author_email: 'github-actions[bot]@users.noreply.github.com'
-          author_name: 'github-actions[bot]'
+          author_email: 'f18326186224@gmail.com'
+          author_name: 'jaychouzzz'
           message: '🐳 chore: 更新every.jpg'
           directory: '.'
           repository: nichuanfang/nichuanfang
