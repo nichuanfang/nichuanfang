@@ -1,32 +1,29 @@
 # 处理每日图片更新_ios
 
 from imagekitio import ImageKit
+from imagekitio.client import ImageKitRequest,File
 import requests
 from requests import Response
-import base64
-from PIL import Image
-from io import BytesIO
 import random
 import sys
 
-def save_url_image(img_url:str,height,width):
+# imagekit公钥
+public_key = sys.argv[1]
+# imagekit私钥
+private_key = sys.argv[2]
+
+def save_url_image(img_url:str,ik_request:ImageKitRequest):
     """url保存
 
     Args:
         img_url (str): 图片url
         img_path (str): 保存的图片路径 
     """
-    res:Response = requests.get(img_url)
-    base64_data = base64.b64encode(res.content).decode()
-    imgdata = base64.b64decode(base64_data)
-    im = Image.open(BytesIO(imgdata))
-    # im.thumbnail((height,width), Image.Resampling.LANCZOS ) #重新设置图片大小
-    im.save('ios_everyday.jpg')
-
-# imagekit公钥
-public_key = sys.argv[1]
-# imagekit私钥
-private_key = sys.argv[2]
+    # 组装请求
+    header = ik_request.create_headers()
+    res:Response = requests.get(img_url,headers=header,stream=True)
+    with open('ios_everyday.jpg', 'wb') as f:
+        f.write(res.content) 
 
 imagekit =ImageKit(
     private_key=f'{private_key}',
@@ -48,4 +45,8 @@ if new_file_list is None or len(new_file_list)==0:
     raise RuntimeError('imagekit的ios分类下没有图片!')
 
 index = random.randint(0,len(new_file_list)-1)
-save_url_image(new_file_list[index].url,new_file_list[index].height,new_file_list[index].width)
+
+# https://imagekit.io/api/v1/files/646deda206370748f2327eee/download?fileName=zq-lee-_FkDmO8oYjg-unsplash.png
+# 组装url
+download_url = f'https://imagekit.io/api/v1/files/{new_file_list[index].file_id}/download?fileName={new_file_list[index].name}'
+save_url_image(download_url,imagekit.ik_request)
