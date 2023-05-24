@@ -27,7 +27,7 @@ def save_url_image(img_url:str,height,width):
 public_key = sys.argv[1]
 # imagekit私钥
 private_key = sys.argv[2]
-
+ 
 imagekit =ImageKit(
     private_key=f'{private_key}',
     public_key=f'{public_key}',
