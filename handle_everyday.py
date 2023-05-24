@@ -9,11 +9,9 @@ import random
 import sys
 
 # imagekit公钥
-# public_key = sys.argv[1]
-public_key = 'public_kHgEEUCvf82IMfTnNsHXVnXmdYQ='
+public_key = sys.argv[1]
 # imagekit私钥
-# private_key = sys.argv[2]
-private_key = 'private_26g3srCc12I3/vAQOOso2K8s/nY='
+private_key = sys.argv[2]
 
 def save_url_image(img_url:str,ik_request:ImageKitRequest,path:str):
     """url保存
