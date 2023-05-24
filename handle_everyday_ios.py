@@ -7,7 +7,6 @@ import base64
 from PIL import Image
 from io import BytesIO
 import random
-import uuid
 import sys
 
 def save_url_image(img_url:str,height,width):
