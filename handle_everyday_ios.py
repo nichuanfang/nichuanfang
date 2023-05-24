@@ -22,7 +22,7 @@ def save_url_image(img_url:str,ik_request:ImageKitRequest):
     # 组装请求
     header = ik_request.create_headers()
     res:Response = requests.get(img_url,headers=header,stream=True)
-    with open('ios_everyday.jpg', 'wb') as f:
+    with open('dist/ios_everyday.jpg', 'wb') as f:
         f.write(res.content) 
 
 imagekit =ImageKit(
