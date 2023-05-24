@@ -1,0 +1,41 @@
+name: 每日图片更新
+
+on:
+  # 手动触发
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: '每日图片更新'
+
+  schedule:
+    - cron: '0 8 * * *'
+
+jobs:
+  job:
+    name: update_img
+    runs-on: ubuntu-latest-16-cores
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: 设置python环境(v3.11)
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 安装pip依赖(清华大学镜像源)
+        run: pip install -r requirements.txt
+
+      - name: 每日图片更新
+        run: |
+          python handle_everyday.py ${{ secrets.IMAGE_KIT_PUBLIC_KEY }} ${{ secrets.IMAGE_KIT_PRIVATE_KEY }}
+
+      - name: 更新every.jpg
+        uses: Smart-Transportation/push@v1.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: 'main'
