@@ -37,6 +37,11 @@ jobs:
         run: |
           python handle_everyday.py ${{ secrets.IMAGE_KIT_PUBLIC_KEY }} ${{ secrets.IMAGE_KIT_PRIVATE_KEY }}
 
+      - name: pull
+        run: |
+          git checkout .
+          git pull --allow-unrelated-histories
+
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
