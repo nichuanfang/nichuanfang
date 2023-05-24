@@ -10,8 +10,10 @@ import sys
 
 # imagekit公钥
 public_key = sys.argv[1]
+# public_key = ''
 # imagekit私钥
 private_key = sys.argv[2]
+# private_key = ''
 
 def save_url_image(img_url:str,ik_request:ImageKitRequest,path:str):
     """url保存
@@ -44,6 +46,10 @@ for file in file_list:
             # move
             options = MoveFileRequestOptions(file.file_path,'/ios')
             imagekit.move_file(options)
+            continue
+        # 直接下载windows专用图片(桌面壁纸专用)
+        # download_url = f'https://imagekit.io/api/v1/files/{file.file_id}/download?fileName={file.name}'
+        # save_url_image(download_url,imagekit.ik_request,f'dist/windows/{file.name}')
         new_file_list.append(file)
 
 if new_file_list is None or len(new_file_list)==0:
