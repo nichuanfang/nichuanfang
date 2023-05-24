@@ -1,16 +1,19 @@
 # 处理每日图片更新_ios
 
 from imagekitio import ImageKit
-from imagekitio.client import ImageKitRequest,File
+from imagekitio.client import ImageKitRequest
+from imagekitio.models.MoveFileRequestOptions import MoveFileRequestOptions
 import requests
 from requests import Response
 import random
 import sys
 
 # imagekit公钥
-public_key = sys.argv[1]
+# public_key = sys.argv[1]
+public_key = 'public_kHgEEUCvf82IMfTnNsHXVnXmdYQ='
 # imagekit私钥
-private_key = sys.argv[2]
+# private_key = sys.argv[2]
+private_key = 'private_26g3srCc12I3/vAQOOso2K8s/nY='
 
 def save_url_image(img_url:str,ik_request:ImageKitRequest):
     """url保存
@@ -39,6 +42,10 @@ new_file_list = []
 
 for file in file_list:
     if file.file_path.startswith('/ios'):
+        if file.height<file.width:
+            # move
+            options = MoveFileRequestOptions(file.file_path,'/nichuanfang')
+            imagekit.move_file(options)
         new_file_list.append(file)
 
 if new_file_list is None or len(new_file_list)==0:
