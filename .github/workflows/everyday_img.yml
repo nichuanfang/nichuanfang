@@ -37,17 +37,6 @@ jobs:
         run: |
           python handle_everyday.py ${{ secrets.IMAGE_KIT_PUBLIC_KEY }} ${{ secrets.IMAGE_KIT_PRIVATE_KEY }}
 
-      # - name: 更新every.jpg
-      #   uses: Smart-Transportation/push@v1.3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     branch: 'main'
-      #     author_email: 'f18326186224@gmail.com'
-      #     author_name: 'jaychouzzz'
-      #     message: '🐳 chore: 更新every.jpg'
-      #     directory: '.'
-      #     repository: nichuanfang/nichuanfang
-
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
