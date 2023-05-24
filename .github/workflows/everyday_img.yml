@@ -37,5 +37,10 @@ jobs:
       - name: 更新every.jpg
         uses: Smart-Transportation/push@v1.3
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: 'main'
+          author_email: 'github-actions[bot]@users.noreply.github.com'
+          author_name: 'github-actions[bot]'
+          message: '🐳 chore: 更新every.jpg'
+          directory: '.'
+          repository: nichuanfang/nichuanfang
