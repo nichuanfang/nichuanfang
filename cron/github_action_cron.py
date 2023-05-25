@@ -19,6 +19,5 @@ def run():
             f'https://api.github.com/repos/{github_username}/{github_project}/actions/workflows/{github_workflow_id}/dispatches',
             data=payload, headers=header)
 
-# 云函数入口
-def main_handler(event, context):
-    return run()
+if __name__=='__main__':
+     run()
