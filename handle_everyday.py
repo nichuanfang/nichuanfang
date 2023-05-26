@@ -47,6 +47,10 @@ for file in file_list:
             options = MoveFileRequestOptions(file.file_path,'/ios')
             imagekit.move_file(options)
             continue
+        file_name:str = file.name # type: ignore
+        if file_name.split('.')[0].endswith('副本') or file_name.split('.')[0].endswith('_1_'):
+            imagekit.delete_file(file.file_id) # type: ignore
+            continue
         # 直接下载windows专用图片(桌面壁纸专用)
         # download_url = f'https://imagekit.io/api/v1/files/{file.file_id}/download?fileName={file.name}'
         # save_url_image(download_url,imagekit.ik_request,f'dist/windows/{file.name}')

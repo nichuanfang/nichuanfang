@@ -44,6 +44,10 @@ for file in file_list:
             # move
             options = MoveFileRequestOptions(file.file_path,'/nichuanfang')
             imagekit.move_file(options)
+        file_name:str = file.name # type: ignore
+        if file_name.split('.')[0].endswith('副本') or file_name.split('.')[0].endswith('_1_'):
+            imagekit.delete_file(file.file_id) # type: ignore
+            continue
         new_file_list.append(file)
 
 if new_file_list is None or len(new_file_list)==0:
