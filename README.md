@@ -11,7 +11,7 @@ Welcome to my Github page! I am nichuanfang and I am  3-year experience Java dev
 
 #### 🌱 Things I am currently working on: 
 - Work hard and learn latest and popular technology stacks
-- Personal application development and devops for [hosted server](https://crawler.vencenter.cn/api/doc)
+- Personal application development and devops for [hosted server](https://blog.cinima.asia)
 - Actively contribute to the github community
 
 #### :muscle: Things I am challenging myself with:
