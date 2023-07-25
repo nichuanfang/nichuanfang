@@ -48,7 +48,7 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }}
           
       - name: Push notification
-        uses: shink/bark-action@v2
+        uses: nichuanfang/bark-action@v1.0.0
         continue-on-error: true
         with:
           key: ${{ secrets.BARK_KEY }} # Your secret key, it is required
@@ -56,7 +56,3 @@ jobs:
           title: ~~~
           body: Wallpaper has update!
           sound: calypso
-          isArchive: 1
-          # url: https://yuanhaoji.com
-          # automaticallyCopy: 1
-          # copy: Content copied to clipboard
