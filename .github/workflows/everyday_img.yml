@@ -52,7 +52,7 @@ jobs:
           key: ${{ secrets.BARK_KEY }}
           host: ${{ vars.BARK_HOST }}
           title: 更新通知
-          body: Wallpaper has update
+          body: Wallpaper%20has%20update
           sound: calypso
         run: |
           curl -L "${{env.host}}/${{env.key}}/${{env.title}}/${{env.body}}?sound=${{env.sound}}"
