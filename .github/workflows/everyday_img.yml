@@ -55,4 +55,4 @@ jobs:
           body: Wallpaper has update
           sound: calypso
         run: |
-          curl -L "$host/$key/$title/$body?sound=$sound"
+          curl -L "${host}/${key}/${title}/${body}?sound=${sound}"
