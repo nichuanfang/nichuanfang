@@ -48,7 +48,7 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }}
           
       - name: Push notification
-        uses: nichuanfang/bark-action@v1.0.0
+        uses: daolanfler/bark-action@v1
         continue-on-error: true
         with:
           key: ${{ secrets.BARK_KEY }} # Your secret key, it is required
