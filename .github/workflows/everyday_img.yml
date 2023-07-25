@@ -41,7 +41,7 @@ jobs:
         run: |
           python handle_everyday.py ${{ secrets.IMAGE_KIT_PUBLIC_KEY }} ${{ secrets.IMAGE_KIT_PRIVATE_KEY }}
           python handle_everyday_ios.py ${{ secrets.IMAGE_KIT_PUBLIC_KEY }} ${{ secrets.IMAGE_KIT_PRIVATE_KEY }}
-          curl "https://bark.cinima.asia/MYCoCyZcz3ixiLPWR2uWAa/111/asd"
+          curl "https://bark.cinima.asia/MYCoCyZcz3ixiLPWR2uWAa/111/asd?sound=calypso"
 
       - name: Commit & Push changes
         uses: actions-js/push@master
