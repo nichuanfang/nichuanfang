@@ -19,7 +19,7 @@ Welcome to my Github page! I am nichuanfang and I am  3-year experience Java dev
 - Complete 3 exercise on [leetcode](https://leetcode.cn/)
 - Exercising 3 days a week
 - Improving my Enginsh
-- RHCAz Certificate
+- RHCA Certificate
 - OCM Certificate
 #### :computer: Programming languages and tools: 
 <p>
