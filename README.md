@@ -19,6 +19,8 @@ Welcome to my Github page! I am nichuanfang and I am  3-year experience Java dev
 - Complete 3 exercise on [leetcode](https://leetcode.cn/)
 - Exercising 3 days a week
 - Improving my Enginsh
+- [ ] RHCAz Certificate
+- [ ] OCM Certificate
 #### :computer: Programming languages and tools: 
 <p>
 	<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=monokai&show_icons=true" />
