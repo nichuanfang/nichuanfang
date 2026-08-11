@@ -22,8 +22,8 @@ Welcome to my Github page! I am nichuanfang and I am  3-year experience Java dev
 - RHCA Certificate
 - OCM Certificate
 #### :computer: Programming languages and tools: 
-<!-- <p>
-	<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=nichuanfang&theme=monokai&show_icons=true" /> -->
+<p>
+	<img width="50%" align="right" src="https://github-stats-extended.vercel.app/api?username=nichuanfang&theme=monokai&show_icons=true" />
 
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></code>
